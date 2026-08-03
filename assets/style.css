@@ -92,21 +92,27 @@ p { color: var(--ink-soft); }
   gap: 20px;
   height: 74px;
 }
-.logo { display: flex; align-items: center; gap: 10px; }
-.logo-mark {
-  width: 40px; height: 40px;
-  border-radius: 12px;
-  background: linear-gradient(135deg, var(--teal-600), var(--teal-500));
-  color: var(--white);
-  display: grid; place-items: center;
+.logo { display: flex; align-items: center; gap: 13px; color: var(--teal-900); }
+.logo-mark { display: grid; place-items: center; color: inherit; }
+.logo-mark svg { width: 31px; height: 40px; }
+.logo-divider { width: 1px; height: 38px; background: currentColor; opacity: .25; }
+.logo-text { display: flex; flex-direction: column; line-height: 1.3; }
+.logo-l1 {
+  font-size: .8rem; font-weight: 800;
+  letter-spacing: .16em; text-transform: uppercase;
+  color: var(--teal-900); white-space: nowrap;
 }
-.logo-mark svg { width: 24px; height: 24px; }
-.logo-text { font-family: var(--font-display); font-weight: 600; font-size: 1.3rem; letter-spacing: .02em; color: var(--teal-900); }
-.logo-text span { color: var(--teal-500); }
+.logo-l2 {
+  font-size: .72rem; font-weight: 500;
+  letter-spacing: .29em; text-transform: uppercase;
+  color: var(--teal-500);
+}
 .main-nav { display: flex; gap: 26px; }
 .main-nav a { font-weight: 600; font-size: .92rem; color: var(--ink-soft); transition: color .15s; }
 .main-nav a:hover { color: var(--teal-600); }
 .header-actions { display: flex; align-items: center; gap: 14px; }
+.header-actions .btn { white-space: nowrap; }
+.cta-short { display: none; }
 .nav-toggle { display: none; background: none; border: none; flex-direction: column; gap: 5px; padding: 6px; }
 .nav-toggle span { width: 24px; height: 2.5px; background: var(--teal-900); border-radius: 2px; }
 
@@ -135,14 +141,14 @@ p { color: var(--ink-soft); }
   transform: rotate(2deg);
 }
 .hero-card-icon {
-  width: 74px; height: 74px;
+  width: 78px; height: 78px;
   margin: 0 auto 18px;
   border-radius: 22px;
-  background: linear-gradient(135deg, var(--teal-600), var(--teal-500));
-  color: var(--white);
+  background: var(--teal-100);
+  color: var(--teal-700);
   display: grid; place-items: center;
 }
-.hero-card-icon svg { width: 42px; height: 42px; }
+.hero-card-icon svg { width: 34px; height: 44px; }
 .hero-card-title { font-family: var(--font-display); font-size: 1.2rem; font-weight: 600; color: var(--teal-900); }
 .hero-card-text { margin-top: 8px; font-size: .95rem; }
 .hero-card-note {
@@ -300,8 +306,10 @@ p { color: var(--ink-soft); }
 /* ---------- Footer ---------- */
 .site-footer { background: var(--teal-900); color: rgba(255, 255, 255, .75); padding: 60px 0 0; }
 .footer-inner { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; padding-bottom: 40px; }
-.footer-logo { font-size: 1.4rem; color: var(--white); margin-bottom: 10px; }
-.footer-logo span { color: var(--teal-500); }
+.footer-logo { color: var(--white); margin-bottom: 16px; }
+.footer-logo .logo-l1 { color: var(--white); }
+.footer-logo .logo-l2 { color: var(--teal-500); }
+.footer-addr { margin-top: 4px; }
 .site-footer p { color: rgba(255, 255, 255, .65); font-size: .9rem; }
 .footer-title { color: var(--white); font-weight: 700; margin-bottom: 12px; }
 .footer-inner a { display: block; font-size: .9rem; padding: 4px 0; color: rgba(255, 255, 255, .65); transition: color .15s; }
@@ -319,7 +327,7 @@ p { color: var(--ink-soft); }
   .steps, .info-grid { grid-template-columns: 1fr 1fr; }
   .footer-inner { grid-template-columns: 1fr; gap: 28px; }
 }
-@media (max-width: 640px) {
+@media (max-width: 900px) {
   .main-nav {
     display: none;
     position: absolute;
@@ -334,6 +342,15 @@ p { color: var(--ink-soft); }
   .main-nav.open { display: flex; }
   .nav-toggle { display: flex; }
   .header-actions .btn { padding: 10px 16px; font-size: .82rem; }
+}
+@media (max-width: 640px) {
+  .cta-long { display: none; }
+  .cta-short { display: inline; }
+  .logo { gap: 9px; }
+  .logo-mark svg { width: 25px; height: 32px; }
+  .logo-divider { height: 30px; }
+  .logo-l1 { font-size: .66rem; letter-spacing: .12em; }
+  .logo-l2 { font-size: .6rem; letter-spacing: .24em; }
   .cards-grid, .team-grid, .steps, .info-grid, .feature-grid { grid-template-columns: 1fr; }
   .section { padding: 60px 0; }
   .avis-band { padding: 40px 28px; }
