@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css?v=2">
+  <link rel="stylesheet" href="assets/style.css?v=3">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 </head>
 <body>
@@ -260,6 +260,7 @@
           <p>Cabinet DENTOFOS<br>2 Avenue René Cassin<br>13270 Fos-sur-Mer</p>
           <p class="muted">Rez-de-chaussée de plain-pied · Parking gratuit sur place</p>
           <p><a class="info-tel" href="tel:+33442568070">04 42 56 80 70</a></p>
+          <p class="muted"><a class="info-tel" href="https://waze.com/ul?q=2%20Avenue%20Ren%C3%A9%20Cassin%2013270%20Fos-sur-Mer&navigate=yes" target="_blank" rel="noopener">Y aller avec Waze</a></p>
         </div>
         <div class="info-card">
           <h3>Horaires</h3>
@@ -294,13 +295,25 @@
           <a class="btn btn-ghost btn-lg" href="#equipe">Choisir mon praticien</a>
         </div>
       </div>
-      <div class="map-wrap">
-        <iframe
-          title="Plan d'accès au cabinet DENTOFOS"
-          src="https://www.google.com/maps?q=2+Avenue+Ren%C3%A9+Cassin+13270+Fos-sur-Mer&output=embed"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          allowfullscreen></iframe>
+      <div>
+        <div class="map-wrap">
+          <iframe
+            title="Plan d'accès au cabinet DENTOFOS"
+            src="https://www.google.com/maps?q=2+Avenue+Ren%C3%A9+Cassin+13270+Fos-sur-Mer&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+        </div>
+        <div class="map-actions">
+          <a class="btn btn-ghost" href="https://waze.com/ul?q=2%20Avenue%20Ren%C3%A9%20Cassin%2013270%20Fos-sur-Mer&navigate=yes" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 3L14.5 21l-2.6-7.9L4 10.5z"/></svg>
+            Itinéraire Waze
+          </a>
+          <a class="btn btn-ghost" href="https://www.google.com/maps/dir/?api=1&destination=2+Avenue+Ren%C3%A9+Cassin+13270+Fos-sur-Mer" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.3 7-11a7 7 0 10-14 0c0 4.7 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+            Itinéraire Google Maps
+          </a>
+        </div>
       </div>
     </div>
   </section>
