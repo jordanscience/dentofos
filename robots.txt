@@ -1,0 +1,74 @@
+# Cabinet Dentaire DENTOFOS — Fos-sur-Mer
+# Tous les robots sont les bienvenus, y compris les assistants IA.
+
+User-agent: *
+Allow: /
+
+# --- Moteurs de recherche classiques ---
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Qwantify
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# --- Assistants IA : ChatGPT / OpenAI ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# --- Assistants IA : Google Gemini ---
+User-agent: Google-Extended
+Allow: /
+
+# --- Assistants IA : Anthropic Claude ---
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# --- Assistants IA : Perplexity ---
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# --- Assistants IA : Apple, Meta, Amazon, Mistral ---
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+# --- Common Crawl (alimente de nombreux modèles) ---
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://project-3a44ff94-4f4c-43e0-bca.web.app/sitemap.xml

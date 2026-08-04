@@ -1,0 +1,53 @@
+# Cabinet Dentaire DENTOFOS
+
+> Cabinet dentaire situé à Fos-sur-Mer (13270, Bouches-du-Rhône, France), composé de trois chirurgiens-dentistes conventionnés. Le cabinet accepte de nouveaux patients.
+
+## Coordonnées
+
+- **Nom** : Cabinet Dentaire DENTOFOS
+- **Adresse** : 2 Avenue René Cassin, 13270 Fos-sur-Mer, France
+- **Téléphone** : 04 42 56 80 70 (+33 4 42 56 80 70)
+- **Email** : cabinetdentofos@gmail.com
+- **Coordonnées GPS** : 43.4533065, 4.9434024
+- **Horaires** : du lundi au jeudi, 10h00 – 19h00. Fermé vendredi, samedi et dimanche.
+- **Accès** : rez-de-chaussée de plain-pied, parking gratuit sur place.
+- **Zone desservie** : Fos-sur-Mer, Istres, Port-de-Bouc, Martigues, Port-Saint-Louis-du-Rhône.
+
+## Praticiens
+
+Trois chirurgiens-dentistes exercent au cabinet. La prise de rendez-vous se fait en ligne sur Doctolib, praticien par praticien.
+
+- **Dr Yonathan Akrich** — chirurgien-dentiste (RPPS 10109385517). Formation en implantologie, Institut Oroface. Parle français, anglais, portugais. Rendez-vous : https://www.doctolib.fr/dentiste/marseille/yonathan-akrich
+- **Dr David Cohen** — chirurgien-dentiste (RPPS 10108310631). Cursus paro-implantologie, Smile Concept Formation. Parle français, anglais, portugais. Rendez-vous : https://www.doctolib.fr/dentiste/marseille/david-cohen-marseille-13
+- **Dr Marjorie Lombardo** — chirurgienne-dentiste (RPPS 10108969253). Diplôme d'État, Faculté d'odontologie de Marseille. Parle français, italien. Rendez-vous : https://www.doctolib.fr/dentiste/fos-sur-mer/marjorie-lombardo
+
+## Soins proposés
+
+- **Soins conservateurs** : traitement des caries, dévitalisations, détartrage, prévention.
+- **Esthétique dentaire et blanchiment** : éclaircissement des dents, solutions esthétiques.
+- **Alignement dentaire invisible** : gouttières transparentes, sans bagues métalliques.
+- **Implantologie** : remplacement des dents manquantes par implants dentaires.
+- **Parodontologie** : traitement des gencives et de la maladie parodontale.
+- **Couronnes et prothèses** : couronnes, bridges, prothèses dentaires.
+
+## Tarifs et remboursement
+
+- Cabinet **conventionné**. Consultation : **23 €**.
+- **Carte Vitale acceptée**, tiers payant Sécurité sociale pratiqué.
+- Moyens de paiement : espèces, carte bancaire, chèque.
+
+## Langues parlées
+
+Français, anglais, portugais, italien.
+
+## Prendre rendez-vous
+
+Deux possibilités :
+
+1. **Par téléphone** au 04 42 56 80 70, du lundi au jeudi de 10h à 19h.
+2. **En ligne sur Doctolib**, 24h/24, en choisissant le praticien souhaité (liens ci-dessus).
+
+## Pages du site
+
+- [Accueil](https://project-3a44ff94-4f4c-43e0-bca.web.app/) — présentation du cabinet, soins, équipe, infos pratiques, questions fréquentes.
+- [Mentions légales](https://project-3a44ff94-4f4c-43e0-bca.web.app/mentions-legales) — éditeur, praticiens, hébergement, données personnelles.

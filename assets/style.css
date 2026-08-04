@@ -252,6 +252,34 @@ strong { color: var(--ink); font-weight: 600; }
 .info-tel { font-weight: 500; color: var(--ink); border-bottom: 1px solid var(--line-strong); }
 .info-tel:hover { border-bottom-color: var(--ink); }
 
+/* ---------- FAQ ---------- */
+.faq-list { max-width: 780px; margin: 0 auto; border-top: 1px solid var(--line); }
+.faq-list details { border-bottom: 1px solid var(--line); }
+.faq-list summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 22px 40px 22px 0;
+  position: relative;
+  font-size: .95rem;
+  font-weight: 500;
+  color: var(--ink);
+  transition: color .2s;
+}
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary:hover { color: var(--accent); }
+.faq-list summary::after {
+  content: '';
+  position: absolute; right: 6px; top: 50%;
+  width: 9px; height: 9px;
+  border-right: 1px solid var(--line-strong);
+  border-bottom: 1px solid var(--line-strong);
+  transform: translateY(-70%) rotate(45deg);
+  transition: transform .25s ease;
+}
+.faq-list details[open] summary::after { transform: translateY(-20%) rotate(-135deg); }
+.faq-list details p { padding: 0 40px 24px 0; font-size: .88rem; line-height: 1.8; }
+.faq-list details p a { color: var(--ink); border-bottom: 1px solid var(--line-strong); }
+
 /* ---------- Contact ---------- */
 .contact-cta { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 32px; }
 .map-wrap {
