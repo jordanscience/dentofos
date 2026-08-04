@@ -1,0 +1,9 @@
+# Ne JAMAIS versionner de cles de service ou de secrets
+*.json.key
+service-account*.json
+*-credentials.json
+project-*.json
+.env
+.env.*
+.firebase/
+node_modules/
