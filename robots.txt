@@ -71,4 +71,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://project-3a44ff94-4f4c-43e0-bca.web.app/sitemap.xml
+Sitemap: https://dentofos.fr/sitemap.xml

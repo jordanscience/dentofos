@@ -49,5 +49,5 @@ Deux possibilités :
 
 ## Pages du site
 
-- [Accueil](https://project-3a44ff94-4f4c-43e0-bca.web.app/) — présentation du cabinet, soins, équipe, infos pratiques, questions fréquentes.
-- [Mentions légales](https://project-3a44ff94-4f4c-43e0-bca.web.app/mentions-legales) — éditeur, praticiens, hébergement, données personnelles.
+- [Accueil](https://dentofos.fr/) — présentation du cabinet, soins, équipe, infos pratiques, questions fréquentes.
+- [Mentions légales](https://dentofos.fr/mentions-legales) — éditeur, praticiens, hébergement, données personnelles.
