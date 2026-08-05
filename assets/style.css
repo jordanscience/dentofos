@@ -252,6 +252,40 @@ strong { color: var(--ink); font-weight: 600; }
 .info-tel { font-weight: 500; color: var(--ink); border-bottom: 1px solid var(--line-strong); }
 .info-tel:hover { border-bottom-color: var(--ink); }
 
+/* ---------- Pages de soins ---------- */
+.article { max-width: 760px; }
+.breadcrumb { font-size: .72rem; letter-spacing: .06em; color: var(--ink-soft); margin-bottom: 28px; }
+.breadcrumb a { border-bottom: 1px solid transparent; transition: border-color .2s; }
+.breadcrumb a:hover { border-bottom-color: var(--line-strong); }
+.breadcrumb span { color: var(--line-strong); margin: 0 6px; }
+.breadcrumb span:last-child { color: var(--ink-soft); margin: 0; }
+.article h1 { font-size: clamp(1.75rem, 3.6vw, 2.5rem); margin-bottom: 24px; }
+.article .lede { font-size: 1.02rem; line-height: 1.75; color: var(--ink-mid); }
+.article-h2 {
+  font-size: 1.2rem; font-weight: 500;
+  margin: 48px 0 14px; padding-top: 26px;
+  border-top: 1px solid var(--line);
+}
+.article p { font-size: .93rem; line-height: 1.85; }
+.article-cta {
+  margin: 52px 0 12px; padding: 34px 32px;
+  background: var(--paper-alt); border: 1px solid var(--line); border-radius: var(--radius);
+}
+.article-cta p { font-size: .92rem; }
+.article-cta .contact-cta { margin-top: 20px; }
+.article-note {
+  margin-top: 44px; padding-top: 22px;
+  border-top: 1px solid var(--line);
+  font-size: .78rem; line-height: 1.7; color: var(--ink-soft);
+}
+.care-more {
+  display: inline-block; margin-top: 16px;
+  font-size: .76rem; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--ink); border-bottom: 1px solid var(--line-strong);
+  padding-bottom: 2px; transition: border-color .2s;
+}
+.care-more:hover { border-bottom-color: var(--ink); }
+
 /* ---------- FAQ ---------- */
 .faq-list { max-width: 780px; margin: 0 auto; border-top: 1px solid var(--line); }
 .faq-list details { border-bottom: 1px solid var(--line); }

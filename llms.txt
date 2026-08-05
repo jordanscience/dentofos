@@ -50,4 +50,8 @@ Deux possibilités :
 ## Pages du site
 
 - [Accueil](https://dentofos.fr/) — présentation du cabinet, soins, équipe, infos pratiques, questions fréquentes.
+- [Implantologie](https://dentofos.fr/implantologie/) — remplacer une dent manquante par un implant : indications, déroulement, suites, remboursement.
+- [Parodontologie](https://dentofos.fr/parodontologie/) — soins des gencives : signes d'alerte, gingivite et parodontite, traitement.
+- [Blanchiment dentaire](https://dentofos.fr/blanchiment-dentaire/) — éclaircissement au fauteuil ou par gouttières, durée du résultat, limites.
+- [Alignement dentaire invisible](https://dentofos.fr/alignement-invisible/) — gouttières transparentes : indications, déroulement, contention.
 - [Mentions légales](https://dentofos.fr/mentions-legales) — éditeur, praticiens, hébergement, données personnelles.
