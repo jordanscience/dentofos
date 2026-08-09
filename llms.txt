@@ -47,6 +47,10 @@ Deux possibilités :
 1. **Par téléphone** au 04 42 56 80 70, du lundi au jeudi de 10h à 19h.
 2. **En ligne sur Doctolib**, 24h/24, en choisissant le praticien souhaité (liens ci-dessus).
 
+## Contenu complet
+
+Pour l'intégralité du contenu du site en un seul document : [llms-full.txt](https://dentofos.fr/llms-full.txt)
+
 ## Pages du site
 
 - [Accueil](https://dentofos.fr/) — présentation du cabinet, soins, équipe, infos pratiques, questions fréquentes.

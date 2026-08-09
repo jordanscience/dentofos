@@ -1,4 +1,4 @@
-# Cabinet Dentaire DENTOFOS — Fos-sur-Mer
+﻿# Cabinet Dentaire DENTOFOS â€” Fos-sur-Mer
 # Tous les robots sont les bienvenus, y compris les assistants IA.
 
 User-agent: *
@@ -67,8 +67,13 @@ Allow: /
 User-agent: MistralAI-User
 Allow: /
 
-# --- Common Crawl (alimente de nombreux modèles) ---
+# --- Common Crawl (alimente de nombreux modÃ¨les) ---
 User-agent: CCBot
 Allow: /
 
 Sitemap: https://dentofos.fr/sitemap.xml
+
+# Contenu complet du site, lisible par les assistants IA :
+# https://dentofos.fr/llms.txt
+# https://dentofos.fr/llms-full.txt
+

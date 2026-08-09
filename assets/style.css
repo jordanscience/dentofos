@@ -278,6 +278,17 @@ strong { color: var(--ink); font-weight: 600; }
   border-top: 1px solid var(--line);
   font-size: .78rem; line-height: 1.7; color: var(--ink-soft);
 }
+.related { margin-top: 6px; }
+.related li {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: .88rem;
+  color: var(--ink-soft);
+}
+.related li:last-child { border-bottom: none; }
+.related a { font-weight: 500; color: var(--ink); border-bottom: 1px solid var(--line-strong); }
+.related a:hover { border-bottom-color: var(--ink); }
+
 .care-more {
   display: inline-block; margin-top: 16px;
   font-size: .76rem; letter-spacing: .1em; text-transform: uppercase;
