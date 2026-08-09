@@ -7,3 +7,7 @@ project-*.json
 .env.*
 .firebase/
 node_modules/
+
+posthog*.txt
+*secret*
+*.key
